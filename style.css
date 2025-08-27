@@ -172,8 +172,9 @@
 .breakfast { background: linear-gradient(45deg, #c88a00, #FFCC33); }
 .lunch { background: linear-gradient(45deg, #c88a00, #FFC371); }
 .snacks { background: linear-gradient(45deg, #c88a00, #F8FFAE); }
-.beverages { background: linear-gradient(45deg, #c88a00, #5B86E5); }
-
+.beverages { background: linear-gradient(45deg, #c88a00, #FFCC33); }
+.drinks-beverages {background: linear-gradient(45deg,  #c88a00, #FFCC33);}
+.Appetizer{background: linear-gradient(45deg,  #c88a00, #FFCC33);}
 .menu-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -249,8 +250,8 @@
             font-weight: bold;
             
         }
-
-        .contact-section {
+/* contact section */
+.contact-section {
   background: #fff9f0;
   padding: 60px 40px;
   text-align: center;
@@ -307,8 +308,8 @@
   color: #b27600;
   margin-bottom: 20px;
 }
-
-
+/* contact section end */
+/* dropdown start */
 .dropdown{
     position: relative;
 }
@@ -333,6 +334,7 @@
   display: block;
 }
 
+
 /* Show dropdown on hover */
 .dropdown:hover .dropdown-menu {
   display: block;
@@ -342,7 +344,7 @@
 .dropdown-menu li:hover {
   background-color: #f1f1f1;
 }
-
+/* dropdown menu end */
 /* Footer */
 .footer {
   background-color: #bb8300; /* Mustard yellow */
@@ -372,4 +374,4 @@
 
 .social-icons a:hover {
   color: white;
-}
+} 
